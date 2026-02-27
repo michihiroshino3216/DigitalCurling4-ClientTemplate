@@ -1,0 +1,40 @@
+{
+  "num_shots": 80,
+  "scores": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "2026-02-27T11:05:57.410"
+  ],
+  "fcv1_native": {
+    "requested": true,
+    "enabled": true,
+    "path": "C:\\Users\\michi\\DigitalCurling4-ClientTemplate\\src\\standard\\standard02\\scripts\\fcv1_native\\simulator.pyd",
+    "url": "https://github.com/kawamlab/FCV1-Simulation/releases/download/v1.1.5/simulator-windows-latest-py3.13.pyd",
+    "reason": null
+  },
+  "generated": "2026-02-27T02:42:23.366938Z"
+}

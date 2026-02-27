@@ -1,0 +1,40 @@
+{
+  "num_shots": 70,
+  "scores": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "2026-02-27T11:05:57.410"
+  ],
+  "fcv1_native": {
+    "requested": true,
+    "enabled": false,
+    "path": "C:\\Users\\michi\\DigitalCurling4-ClientTemplate\\src\\standard\\standard02\\scripts\\fcv1_native\\simulator.pyd",
+    "url": "https://github.com/kawamlab/FCV1-Simulation/releases/download/v1.1.5/simulator-windows-latest-py3.13.pyd",
+    "reason": "loaded .pyd but failed to init StoneSimulator: [json.exception.parse_error.101] parse error at line 1, column 1: attempting to parse an empty input; check that your input string or stream contains the expected JSON"
+  },
+  "generated": "2026-02-27T02:35:42.986106Z"
+}
