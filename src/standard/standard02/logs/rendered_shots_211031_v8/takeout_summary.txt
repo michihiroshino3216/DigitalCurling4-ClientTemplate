@@ -1,0 +1,3 @@
+Takeout attempts: total=33, team0=33, team1=0
+Takeout successes: total=14, team0=14, team1=0
+Success rate: total=42.4%, team0=42.4%, team1=0.0%

@@ -1,0 +1,1289 @@
+{
+  "log": "c:\\Users\\michi\\DigitalCurling4-ClientTemplate\\src\\standard\\standard02\\logs\\dc4_team1_20260303_131914.jsonl",
+  "shots_analyzed": 160,
+  "takeout_attempts": 3,
+  "takeout_successes": 0,
+  "takeout_success_rate": 0.0,
+  "per_shot": [
+    {
+      "name": "end00_shot00_tot001",
+      "timestamp": "2026-03-03T13:18:58.590",
+      "translational_velocity": 2.397842686011312,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot01_tot002",
+      "timestamp": "2026-03-03T13:18:58.664",
+      "translational_velocity": 2.4058888960364118,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot01_tot003",
+      "timestamp": "2026-03-03T13:18:58.745",
+      "translational_velocity": 2.4037196466707638,
+      "angular_velocity": 15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot02_tot004",
+      "timestamp": "2026-03-03T13:18:58.813",
+      "translational_velocity": 2.414713447076101,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot02_tot005",
+      "timestamp": "2026-03-03T13:18:58.882",
+      "translational_velocity": 2.4194023388948485,
+      "angular_velocity": 15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot03_tot006",
+      "timestamp": "2026-03-03T13:18:58.950",
+      "translational_velocity": 2.3932386517021507,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot03_tot007",
+      "timestamp": "2026-03-03T13:18:59.021",
+      "translational_velocity": 2.4200181880537164,
+      "angular_velocity": 15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot04_tot008",
+      "timestamp": "2026-03-03T13:18:59.090",
+      "translational_velocity": 2.40092097922059,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot04_tot009",
+      "timestamp": "2026-03-03T13:18:59.186",
+      "translational_velocity": 2.4017298967295018,
+      "angular_velocity": 15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot05_tot010",
+      "timestamp": "2026-03-03T13:18:59.273",
+      "translational_velocity": 2.403383574882047,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot05_tot011",
+      "timestamp": "2026-03-03T13:18:59.325",
+      "translational_velocity": 3.999861930642886,
+      "angular_velocity": 0.0,
+      "is_takeout_attempt": true,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot06_tot012",
+      "timestamp": "2026-03-03T13:18:59.394",
+      "translational_velocity": 2.390432453041091,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot06_tot013",
+      "timestamp": "2026-03-03T13:18:59.492",
+      "translational_velocity": 4.006364301946225,
+      "angular_velocity": 0.0,
+      "is_takeout_attempt": true,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot07_tot014",
+      "timestamp": "2026-03-03T13:18:59.593",
+      "translational_velocity": 2.3983071001119267,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot07_tot015",
+      "timestamp": "2026-03-03T13:18:59.665",
+      "translational_velocity": 3.998640560482839,
+      "angular_velocity": 0.0,
+      "is_takeout_attempt": true,
+      "takeout_success": false
+    },
+    {
+      "name": "end00_shot08_tot016",
+      "timestamp": "2026-03-03T13:18:59.750",
+      "translational_velocity": 2.4037553302783414,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot00_tot001",
+      "timestamp": "2026-03-03T13:18:59.824",
+      "translational_velocity": 2.3925977226714563,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot01_tot002",
+      "timestamp": "2026-03-03T13:18:59.908",
+      "translational_velocity": 2.404924968124575,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot01_tot003",
+      "timestamp": "2026-03-03T13:18:59.998",
+      "translational_velocity": 2.40282698408827,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:00.121",
+      "translational_velocity": 2.397918472402174,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:00.234",
+      "translational_velocity": 2.4096659085816414,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:00.350",
+      "translational_velocity": 2.3942633932389676,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:00.452",
+      "translational_velocity": 2.3920021192352228,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:00.555",
+      "translational_velocity": 2.3943817609312914,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:00.659",
+      "translational_velocity": 2.4018017934878872,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:00.740",
+      "translational_velocity": 2.3837720601959567,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:00.812",
+      "translational_velocity": 2.403462195841527,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:00.877",
+      "translational_velocity": 2.3885363073736703,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:00.957",
+      "translational_velocity": 2.4030687518360727,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:01.079",
+      "translational_velocity": 2.4023267389965115,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:01.216",
+      "translational_velocity": 2.406402212391825,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end01_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:01.325",
+      "translational_velocity": 2.4008697596306305,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:01.414",
+      "translational_velocity": 2.406521449447757,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:01.521",
+      "translational_velocity": 2.3984504700018277,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:01.630",
+      "translational_velocity": 2.4036942694099817,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:01.712",
+      "translational_velocity": 2.3882650944271187,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:01.790",
+      "translational_velocity": 2.397073849260174,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:01.896",
+      "translational_velocity": 2.401200188308765,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:01.997",
+      "translational_velocity": 2.4091886014214268,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:02.117",
+      "translational_velocity": 2.3968248342116656,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:02.238",
+      "translational_velocity": 2.4050701692715752,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:02.305",
+      "translational_velocity": 2.3997071812261743,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:02.375",
+      "translational_velocity": 2.3938713802789673,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:02.458",
+      "translational_velocity": 2.3982027192525845,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:02.530",
+      "translational_velocity": 2.3968568191272914,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:02.648",
+      "translational_velocity": 2.410795333170915,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:02.754",
+      "translational_velocity": 2.400694844437256,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end02_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:02.855",
+      "translational_velocity": 2.4048875750906493,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:02.955",
+      "translational_velocity": 2.3992971732982413,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:03.026",
+      "translational_velocity": 2.4012346664969204,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:03.098",
+      "translational_velocity": 2.406246056015845,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:03.169",
+      "translational_velocity": 2.3973247137834504,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:03.242",
+      "translational_velocity": 2.4034943715601003,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:03.310",
+      "translational_velocity": 2.3932686234091083,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:03.387",
+      "translational_velocity": 2.3988051750553243,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:03.468",
+      "translational_velocity": 2.402425876736677,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:03.566",
+      "translational_velocity": 2.4043161489930958,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:03.645",
+      "translational_velocity": 2.4010436866685154,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:03.737",
+      "translational_velocity": 2.398231828653819,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:03.810",
+      "translational_velocity": 2.385150184362519,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:03.906",
+      "translational_velocity": 2.3953980887839146,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:04.006",
+      "translational_velocity": 2.402982204543874,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:04.084",
+      "translational_velocity": 2.404854068493022,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end03_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:04.190",
+      "translational_velocity": 2.3758682358763856,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:04.270",
+      "translational_velocity": 2.396033647018746,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:04.340",
+      "translational_velocity": 2.406978630430614,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:04.407",
+      "translational_velocity": 2.4060709546483,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:04.489",
+      "translational_velocity": 2.4042835588883,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:04.569",
+      "translational_velocity": 2.405530363640873,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:04.687",
+      "translational_velocity": 2.4010236515058265,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:04.831",
+      "translational_velocity": 2.3983072726404115,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:04.910",
+      "translational_velocity": 2.4125058330263647,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:04.995",
+      "translational_velocity": 2.407761499291071,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:05.079",
+      "translational_velocity": 2.413492311841302,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:05.148",
+      "translational_velocity": 2.3819536995685233,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:05.256",
+      "translational_velocity": 2.380722138918131,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:05.349",
+      "translational_velocity": 2.4013611025966983,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:05.478",
+      "translational_velocity": 2.3940554652441763,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:05.579",
+      "translational_velocity": 2.4008077133616825,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end04_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:05.727",
+      "translational_velocity": 2.4137578294900637,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:05.811",
+      "translational_velocity": 2.4120394298569803,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:05.876",
+      "translational_velocity": 2.394294373980773,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:05.947",
+      "translational_velocity": 2.4027579572817377,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:06.020",
+      "translational_velocity": 2.3916184082105674,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:06.118",
+      "translational_velocity": 2.411359442207809,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:06.207",
+      "translational_velocity": 2.411070746828121,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:06.304",
+      "translational_velocity": 2.3967901986812508,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:06.439",
+      "translational_velocity": 2.394791444633427,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:06.538",
+      "translational_velocity": 2.396893206261219,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:06.614",
+      "translational_velocity": 2.398155212758299,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:06.707",
+      "translational_velocity": 2.4010394877283976,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:06.784",
+      "translational_velocity": 2.4066752406640615,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:06.868",
+      "translational_velocity": 2.410400873106897,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:06.969",
+      "translational_velocity": 2.4002697523737018,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:07.102",
+      "translational_velocity": 2.403391478091578,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end05_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:07.217",
+      "translational_velocity": 2.4052474569599243,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:07.341",
+      "translational_velocity": 2.390572433038571,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:07.431",
+      "translational_velocity": 2.399899114645065,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:07.518",
+      "translational_velocity": 2.4030980620340032,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:07.598",
+      "translational_velocity": 2.3911115102303415,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:07.670",
+      "translational_velocity": 2.402625130471724,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:07.755",
+      "translational_velocity": 2.3931159065005776,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:07.829",
+      "translational_velocity": 2.401522086789719,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:07.919",
+      "translational_velocity": 2.404259504483898,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:07.993",
+      "translational_velocity": 2.39571099905856,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:08.072",
+      "translational_velocity": 2.392100953077105,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:08.154",
+      "translational_velocity": 2.405045573467697,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:08.247",
+      "translational_velocity": 2.407369078656899,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:08.327",
+      "translational_velocity": 2.386249819790071,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:08.414",
+      "translational_velocity": 2.406831234757802,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:08.492",
+      "translational_velocity": 2.4087024134588146,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end06_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:08.601",
+      "translational_velocity": 2.403232593862631,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:08.722",
+      "translational_velocity": 2.416918425911438,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:08.806",
+      "translational_velocity": 2.401358475685036,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:08.886",
+      "translational_velocity": 2.4032785749914263,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:08.961",
+      "translational_velocity": 2.3965032858268946,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:09.041",
+      "translational_velocity": 2.421195915432403,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:09.135",
+      "translational_velocity": 2.3994977385829963,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:09.259",
+      "translational_velocity": 2.4156971917956747,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:09.340",
+      "translational_velocity": 2.3799321226670727,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:10.438",
+      "translational_velocity": 2.4023915535942186,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:10.521",
+      "translational_velocity": 2.397517048390684,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:10.637",
+      "translational_velocity": 2.403903663218839,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:10.734",
+      "translational_velocity": 2.4027280313467307,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:10.812",
+      "translational_velocity": 2.410450405237108,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:10.895",
+      "translational_velocity": 2.396817947104373,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:11.003",
+      "translational_velocity": 2.4035379973130144,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end07_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:11.122",
+      "translational_velocity": 2.402199626037622,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:11.244",
+      "translational_velocity": 2.4006383871474335,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:11.361",
+      "translational_velocity": 2.395415867117674,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:11.491",
+      "translational_velocity": 2.3982651073004497,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:11.587",
+      "translational_velocity": 2.4048137970937917,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:11.698",
+      "translational_velocity": 2.400170429596046,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:11.779",
+      "translational_velocity": 2.3886488825633205,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:11.871",
+      "translational_velocity": 2.403945523355857,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:11.941",
+      "translational_velocity": 2.3915225703540615,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:12.025",
+      "translational_velocity": 2.408083867769173,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:12.109",
+      "translational_velocity": 2.397113688524759,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:12.240",
+      "translational_velocity": 2.405812062333374,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:12.361",
+      "translational_velocity": 2.3975347679794172,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:12.463",
+      "translational_velocity": 2.3971731355242474,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:12.538",
+      "translational_velocity": 2.3957436201903577,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:12.652",
+      "translational_velocity": 2.407584802022721,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end08_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:12.746",
+      "translational_velocity": 2.38991791658196,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot00_tot001",
+      "timestamp": "2026-03-03T13:19:12.818",
+      "translational_velocity": 2.392938742734867,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot01_tot002",
+      "timestamp": "2026-03-03T13:19:12.911",
+      "translational_velocity": 2.394582927615238,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot01_tot003",
+      "timestamp": "2026-03-03T13:19:12.984",
+      "translational_velocity": 2.39245818079952,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot02_tot004",
+      "timestamp": "2026-03-03T13:19:13.084",
+      "translational_velocity": 2.401228671469153,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot02_tot005",
+      "timestamp": "2026-03-03T13:19:13.196",
+      "translational_velocity": 2.392378924363422,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot03_tot006",
+      "timestamp": "2026-03-03T13:19:13.280",
+      "translational_velocity": 2.4091842229344804,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot03_tot007",
+      "timestamp": "2026-03-03T13:19:13.361",
+      "translational_velocity": 2.3962111110814353,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot04_tot008",
+      "timestamp": "2026-03-03T13:19:13.457",
+      "translational_velocity": 2.4008807077287484,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot04_tot009",
+      "timestamp": "2026-03-03T13:19:13.530",
+      "translational_velocity": 2.398097193912012,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot05_tot010",
+      "timestamp": "2026-03-03T13:19:13.634",
+      "translational_velocity": 2.3979619413793216,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot05_tot011",
+      "timestamp": "2026-03-03T13:19:13.714",
+      "translational_velocity": 2.402413214917294,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot06_tot012",
+      "timestamp": "2026-03-03T13:19:13.793",
+      "translational_velocity": 2.416549043154022,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot06_tot013",
+      "timestamp": "2026-03-03T13:19:13.898",
+      "translational_velocity": 2.388770559339558,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot07_tot014",
+      "timestamp": "2026-03-03T13:19:13.985",
+      "translational_velocity": 2.3958167942390034,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot07_tot015",
+      "timestamp": "2026-03-03T13:19:14.087",
+      "translational_velocity": 2.3948532707209393,
+      "angular_velocity": -1.570796327,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    },
+    {
+      "name": "end09_shot08_tot016",
+      "timestamp": "2026-03-03T13:19:14.202",
+      "translational_velocity": 2.415467099528128,
+      "angular_velocity": -15.707963267948966,
+      "is_takeout_attempt": false,
+      "takeout_success": false
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+End 2 Shot 11 by team0
+translational_velocity=2.404557476682147, angular_velocity=15.707963267948966, shot_angle=1.6276073161848896

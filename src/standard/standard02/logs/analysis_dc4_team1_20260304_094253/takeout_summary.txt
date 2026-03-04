@@ -1,0 +1,3 @@
+Takeout success summary
+team0: successes=23, attempts=80, success_rate=28.7%, removed_total=30
+team1: successes=0, attempts=80, success_rate=0.0%, removed_total=0

@@ -1,0 +1,2 @@
+End 3 Shot 15 by team1
+translational_velocity=2.397831890224751, angular_velocity=-1.570796327, shot_angle=1.5141838934492602

@@ -1,0 +1,2 @@
+End 4 Shot 12 by team0
+translational_velocity=2.4064884915262477, angular_velocity=15.707963267948966, shot_angle=1.62364348647286

@@ -1,0 +1,2 @@
+End 3 Shot 8 by team1
+translational_velocity=2.3992525851712734, angular_velocity=-1.570796327, shot_angle=1.5167426368301047

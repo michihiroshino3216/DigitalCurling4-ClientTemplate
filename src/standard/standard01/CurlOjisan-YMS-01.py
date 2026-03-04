@@ -23,7 +23,9 @@ HACK_Y = 0.0
 # 例: 9 -> 10エンド方式の最終エンド
 FINAL_END_NUMBER = 9
 # 最大強度ショットの translational_velocity（既存値より大きめに設定）
-MAX_TRANSLATIONAL_VELOCITY = 3.0
+MAX_TRANSLATIONAL_VELOCITY = 4.0
+# 1エンドあたりの最大投球数（通常は16投）
+SHOTS_PER_END = 16
 
 
 def dist(x1: float, y1: float, x2: float, y2: float) -> float:
@@ -151,7 +153,7 @@ def get_blocking_stone(state, no1):
 
             proj_x = HACK_X + t * line_dx
             proj_y = HACK_Y + t * line_dy
-            if dist(c.x, c.y, proj_x, proj_y) <= (2 * STONE_R):
+            if dist(c.x, c.y, proj_x, proj_y) <= (1.05 *STONE_R):
                 blockers.append({"x": c.x, "y": c.y, "team": team, "t": t})
 
     if not blockers:
@@ -185,10 +187,12 @@ def get_no2_stone(state, no1):
 
 
 def choose_target(state, my_team):
-    # shot_numberは0始まりのため、+1して条件に合わせる
-    shot_index = state.shot_number + 1
+    # `state.shot_number` は試合全体での通し番号（0始まり）なので、
+    # 現在のエンド内での投球回を計算する。
+    # 1エンドあたりの投球数は `SHOTS_PER_END`（通常16）を使う。
+    shot_index = state.total_shot_number + 1
     no1 = get_no1_stone(state)
-
+    print(f"Shot_index={shot_index} state.total_shot_number={getattr(state, 'total_shot_number', None)}")
     if shot_index == 1:
         # 各エンドの1投目はセンタードロー
         return TEE_X, TEE_Y, no1, None
@@ -197,20 +201,37 @@ def choose_target(state, my_team):
         # 2-5投目: 元のルールに戻す — NO1 があればフリーズ、なければセンタードロー
         if no1 is None:
             return TEE_X, TEE_Y, no1, None
-        return no1["x"], no1["y"] - STONE_R, no1, None
+        # 追加: 相手の石がNO1で、ハック-NO1線上にガードが無ければ
+        # 最大強度でテイクアウトを狙う
+        if no1.get("team") != my_team:
+            blocker = get_blocking_stone(state, no1)
+            # ガードが無ければNO1をマックスでねらう
+            if blocker is None:
+                return no1["x"], no1["y"], no1, 'max'
+            # 追加ルール: ハック-NO1線上のストーンがハウス内にあれば
+            # そのストーンをマックスで狙う
+            if dist(blocker["x"], blocker["y"], TEE_X, TEE_Y) <= HOUSE_R:
+                return blocker["x"], blocker["y"], no1, 'max'
+
+        # デフォルトはフリーズ（現行のルール）
+        return no1["x"], no1["y"], no1, None
 
     if 6 <= shot_index <= 15:
         # 6-15投目はNO1が自チームならフリーズ、相手なら奥2個分
         if no1 is None:
             return TEE_X, TEE_Y, no1, None
-        # ハック- NO1 の直線上に石があればその石を狙う
-        if (blocker := get_blocking_stone(state, no1)) is not None:
-            return blocker["x"], blocker["y"], no1, None
+        
         if no1["team"] == my_team:
             return no1["x"], no1["y"] - STONE_R, no1, None
-        
+
+        if no1["team"] != my_team:
+            # ハック- NO1 の直線上に石があればその石を狙う
+            if (blocker := get_blocking_stone(state, no1)) is not None:
+                return blocker["x"], blocker["y"], no1, 'max'
+            else:
+                return no1["x"], no1["y"], no1, 'max'
         #return no1["x"], no1["y"] + (2 * STONE_R), no1, None
-        return no1["x"] , no1["y"] + (1 * STONE_R), no1, None
+        #return no1["x"] , no1["y"] , no1, 'max'
 
     if shot_index == 16:
         # 16投目の特別条件
@@ -237,8 +258,8 @@ def choose_target(state, my_team):
             return no1["x"], no1["y"], no1, None
 
         # NO2が自チームでない場合は最大強度ショットでNO1を狙う（ガード優先で当てに行く）
-        #if (blocker := get_blocking_stone(state, no1)) is not None:
-        #    return blocker["x"], blocker["y"], no1, 'max'
+        if (blocker := get_blocking_stone(state, no1)) is not None:
+            return blocker["x"], blocker["y"], no1, 'max'
 
         # ガードがなければNO1へ最大強度ショット
         return no1["x"], no1["y"], no1, 'max'
@@ -255,8 +276,24 @@ def shot_to_target(tx: float, ty: float, mode: str = None) -> Tuple[float, float
     # パラメータファイル（grid_export_filled.json）から取得する。
     # 速度のみ最大値に置き換える。
     if mode == 'max':
-        _, angle, _, entry = _grid_selector.get_shot_params(tx, ty)
-        return MAX_TRANSLATIONAL_VELOCITY, angle, 0.0, entry
+        distance = math.hypot(tx, ty)
+        angle = math.atan2(ty, tx)
+        MAX_TRANSLATIONAL_VELOCITY = 4.0
+        entry = None
+
+        if -0.1 <= tx <= 0.1: 
+            velocity = -0.0001
+            angle = math.atan2(ty, tx) 
+
+        if tx >= 0.1:
+            velocity = -0.0001
+            angle = math.atan2(ty, tx) + (velocity / MAX_TRANSLATIONAL_VELOCITY) * distance
+        else:
+            velocity = 0.0001
+            angle = math.atan2(ty, tx) + (velocity / MAX_TRANSLATIONAL_VELOCITY) * distance
+        
+                #_, angle, _, entry = _grid_selector.get_shot_params(tx, ty)
+        return MAX_TRANSLATIONAL_VELOCITY, angle , velocity, entry
 
     return _grid_selector.get_shot_params(tx, ty)
 
@@ -317,6 +354,11 @@ async def main():
             next_shot_team = client.get_next_team()
 
             if next_shot_team == my_team:
+                # デバッグ用: shot_index と state.total_shot_number を表示
+                shot_index = getattr(state_data, 'total_shot_number', None)
+                logger.info("shot_index=%s state.total_shot_number=%s", shot_index, getattr(state_data, 'total_shot_number', None))
+                print(f"shot_index={shot_index} state.total_shot_number={getattr(state_data, 'total_shot_number', None)}")
+
                 tx, ty, no1, mode = choose_target(state_data, my_team)
                 translational_velocity, shot_angle, angular_velocity, matched_entry = shot_to_target(tx, ty, mode)
 
@@ -342,6 +384,26 @@ async def main():
                     shot_angle,
                     angular_velocity,
                 )
+
+                # コンソールへ送信パラメータを明示的に出力（INFO）
+                logger.info(
+                    "Sending shot params -> translational_velocity=%.6f, shot_angle=%.6f, angular_velocity=%.6f",
+                    translational_velocity,
+                    shot_angle,
+                    angular_velocity,
+                )
+                # 直接標準出力にも出す（必要なら開発者が stdout で確認可能）
+                print(f"SendShot -> v={translational_velocity:.6f}, angle={shot_angle:.6f}, omega={angular_velocity:.6f}")
+
+                #translational_velocity = 2.39758149
+                #angular_velocity = -1.570796327
+                #angular_velocity = 0
+                #shot_angle = 1.516130711
+                #shot_angle = 1.516130711
+
+                # 直接標準出力にも出す（必要なら開発者が stdout で確認可能）
+                print(f"SendShot2 -> v={translational_velocity:.6f}, angle={shot_angle:.6f}, omega={angular_velocity:.6f}")
+
 
                 await client.send_shot_info(
                     translational_velocity=translational_velocity,

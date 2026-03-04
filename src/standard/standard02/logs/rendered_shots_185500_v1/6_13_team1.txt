@@ -1,0 +1,2 @@
+End 6 Shot 13 by team1
+translational_velocity=2.3987433630454134, angular_velocity=-1.570796327, shot_angle=1.5172827357532197

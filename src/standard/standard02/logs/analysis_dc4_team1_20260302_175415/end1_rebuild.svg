@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="10" y="20" font-size="14">End 1 final (rebuild)</text>
+<rect x="50" y="30" width="700" height="340" fill="#f0f8ff" stroke="#c0e0ff"/>
+<circle cx="367.3" cy="114.3" r="8" fill="#2b6cff" stroke="#000" stroke-width="0.6" />
+<circle cx="133.8" cy="229.2" r="8" fill="#2b6cff" stroke="#000" stroke-width="0.6" />
+<circle cx="226.1" cy="226.9" r="8" fill="#2b6cff" stroke="#000" stroke-width="0.6" />
+<circle cx="332.9" cy="139.8" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="309.1" cy="184.2" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="452.8" cy="189.5" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="337.3" cy="212.5" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="447.3" cy="215.5" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="344.2" cy="259.7" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="303.6" cy="282.4" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="490.7" cy="261.8" r="8" fill="#e63946" stroke="#000" stroke-width="0.6" />
+<circle cx="330.0" cy="157.5" r="6" fill="none" stroke="#ff9900" stroke-width="3"/>
+</svg>

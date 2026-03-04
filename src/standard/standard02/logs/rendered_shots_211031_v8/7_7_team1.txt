@@ -1,0 +1,2 @@
+End 7 Shot 7 by team1
+translational_velocity=2.389234469329079, angular_velocity=-1.570796327, shot_angle=1.5182931497947656

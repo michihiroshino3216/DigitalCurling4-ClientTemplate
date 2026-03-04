@@ -1,0 +1,2 @@
+End 5 Shot 14 by team0
+translational_velocity=4.007570953784038, angular_velocity=0.0, shot_angle=1.5753394938034821

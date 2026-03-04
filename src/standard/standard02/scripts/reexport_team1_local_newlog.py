@@ -1,0 +1,29 @@
+import os, datetime, importlib.util, sys, json
+# load export_shot_analysis as module
+p = os.path.join(os.path.dirname(__file__), 'export_shot_analysis.py')
+spec = importlib.util.spec_from_file_location('esa', p)
+esa = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(esa)
+
+# attached log path
+log_path = r'.\\standard02\\logs\\dc4_team1_20260302_135204.jsonl'
+team = 'team1'
+shots, scores = esa.parse_logs(log_path, target_team=team)
+if not shots:
+    print('No shots found for', team)
+    sys.exit(1)
+# force local simulator (disable native)
+esa.NATIVE_INFO['enabled'] = False
+esa.NATIVE_INFO['requested'] = False
+
+now = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+outdir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'analysis_outputs', os.path.splitext(os.path.basename(log_path))[0] + '_' + team + '_' + now))
+
+esa.export_results(shots, scores, outdir, target_team=team)
+print('Re-exported to', outdir)
+# persist last outdir for caller
+with open(os.path.join(os.path.dirname(__file__), 'last_outdir_team1.txt'), 'w', encoding='utf-8') as f:
+    f.write(outdir)
+
+with open(os.path.join(outdir,'meta_local_override.json'),'w',encoding='utf-8') as f:
+    json.dump({'native_forced_off':True},f,indent=2)
